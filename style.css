@@ -1,0 +1,231 @@
+.e-head{
+    padding-left: 1em;
+    color: antiquewhite;
+    font-family: cursive;
+    font-weight: bold;
+}
+.body-bg{
+        background: linear-gradient(to right, rgb(17, 0, 255), rgba(106, 228, 228, 0.471))
+        
+      
+}
+.navigation{
+  position: fixed;
+  width: 100%;
+  z-index:100;
+  background-color: #0a7df0;
+  
+}
+.lt-sec{
+    padding: 5em;
+    padding-left: 3em;
+    font-weight: bold;
+    color: antiquewhite;
+}.quote{
+    font-family: "Rubik", Sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 2em;
+    text-align: center;
+    background-color: #DB1F3300;
+}.sub-quote{
+    font-family:cursive;
+    text-align: center;
+    color: rgba(254, 253, 253, 0.87);
+    padding-left: 1em;
+    
+
+}.studentImg{
+   width: 100%;
+}
+.vedio{
+    padding-left:  10em;
+    position: absolute;
+    margin: auto;
+    
+}
+.reasons{
+    font-size: x-large;
+    font-family: serif;
+    font-weight:bolder ;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    
+}
+.eHead{
+
+font-family:fantasy ;
+}
+.reasons-bg{
+    padding: 1em;
+    background: rgb(113,155,250);
+    background: linear-gradient(90deg, rgba(113,155,250,1) 0%, rgb(153 198 245) 62%, rgb(178 237 255) 100%);
+}
+.card{
+  float: left;
+  padding: 2em;
+
+}
+
+
+
+.section-title {
+
+    color: #f5f5ff;
+    
+
+	letter-spacing: 0.0015em;
+	font-size: 25em;
+	text-shadow:
+ 0 1px #0f1ea36c, -1px 0 #c0cbff, -1px 2px #8da1ff, -2px 1px #c0cbff,
+		-2px 3px #8da1ff, -3px 2px #c0cbff, -3px 4px #8da1ff, -4px 3px #c0cbff,
+		-4px 5px #8da1ff, -5px 4px #c0cbff, -5px 6px #8da1ff, -6px 5px #c0cbff,
+		-6px 7px #8da1ff, -7px 6px #c0cbff, -7px 8px #8da1ff, -8px 7px #c0cbff;
+	text-align: center;
+}
+.wrapper {
+    display: grid;
+    place-content: center;
+    background-color: var(--background-color);
+    
+    font-family: "Oswald", sans-serif;
+    font-size: clamp(5rem, 1rem, 15rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color);
+  }
+  
+  .wrapper > div {
+    grid-area: 1/1/-1/-1;
+  }
+  .top {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+  }
+  .bottom {
+    clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+    color: transparent;
+    background: -webkit-linear-gradient(177deg, black 53%, var(--text-color) 65%);
+    background: linear-gradient(177deg, black 53%, var(--text-color) 65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: translateX(-0.02em);
+  }
+  
+
+  
+  .features{
+    padding: 4em;
+    text-align: center;
+  }
+  .FeaturesImg{
+    width: 6em;
+    height: 6em;
+  }
+  .features .icon-box {
+
+    align-items: center;
+    padding: 2em;
+    background: #f5f5ff;
+    transition: ease-in-out 0.3s;
+  }
+  
+ 
+  
+  .features .icon-box h3 {
+    font-weight: 700;
+    line-height: 5em;
+    font-size: 20px;
+  }
+  
+  .features .icon-box h3 a {
+    color: #010483;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .features .icon-box h3 a:hover {
+    color: #01036f;
+  }
+  
+  .features .icon-box:hover {
+    background: #ebebff;
+  }
+
+  .Colleges .card-box {
+
+    align-items: center;
+    padding: 2em;
+    background: #f5f5ff;
+    transition: ease-in-out 0.3s;
+  }
+  .Colleges .card{
+    padding: 2em;
+  }
+
+
+  .colleges{
+    
+    padding-top: 5em;
+  }
+  .clg-head{
+    text-align: center;
+    text-decoration: solid;
+    color: #f5f5ff;
+    font-family: fantasy;
+    font-style: inherit;
+    letter-spacing: 1em;
+    background-color: rgb(56, 61, 218);
+    padding: 1em;
+}
+.clg{
+  padding-top: 1em;
+  height: 25em;
+  width: 100%;
+  border-radius: 0.5cm;
+  text-align: center;
+  background: #d2dbff;
+
+}
+.pic{
+  
+  width: 22em;
+  
+  border-radius: 0.5cm;
+}
+.clg-info{
+padding: 2em;
+}
+.row{
+  margin-left: 1em;
+}
+.contact-head{
+  padding: 3em;
+  background-color: #ebebff;
+  text-align: center;
+}.call-btn{
+  width: 1px;
+}.float{
+	position:fixed;
+	width:110px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.btn:hover{
+  background-color: #c0cbff;
+}
+.maps{
+  padding: 5em;
+  width: 100%;
+  height: 50em;
+}
